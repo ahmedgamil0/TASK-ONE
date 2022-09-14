@@ -3,13 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Alegreya,serif,monospace;
+}
+
+
+/* fonts style =================== */
+.font-26 {
+    font-size: 26px;
+}
+/* =========================== */
+
+/* color style ============= */
+
+/* ========================== */
 
 
 
 
 
-
-/* header section */
+/* start header section =====================================================================================*/
 
 header {
     height: 100vh;
@@ -19,11 +37,79 @@ header {
     background-position: center center;
 }
 
-/*start navbar style */
+.over-lay{
+    background-color: rgba(0,0,0,.2);
+}
+
+/*start navbar style=========== */
 .navbar .navbar-brand{
     width: 12%;
+}
+.navbar a {
+    color: white;
+}
+/*end navbar style ===============*/
+
+/* .header-content :first-child,.header-content :last-child {
+   
+    font-size: 26px;
+    color: #ccc;
+    
+} */
+
+.header-content h1 {
+    font-size: 70px;
 }
 
 
 
-/*end navbar style */
+.buttons :first-child{
+    background-color: #8e7754;
+    
+}
+.buttons :first-child:hover{
+    background-color: white;
+    color: black !important;
+}
+
+.fix-icons{
+    top: 12rem;
+}
+
+.fix-icons a:hover{
+    color: #218fe6 !important;
+}
+
+.bullet{
+    width: 30px;
+    height: 50px;
+    bottom: 2rem;
+}
+
+.bullet::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    animation: moves 2s infinite ;
+}
+
+
+@keyframes moves {
+    0%{
+        bottom: 0;
+    }
+
+    100% {
+        bottom: 80%;
+        background-color: rgba(0,0,0,.2);
+    }
+}
+
+
+
+/* end header section =====================================================================================*/

@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- web fonts -->
+    <!-- font awesome -->
     <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:ital,wght@0,800;1,400;1,600&display=swap" rel="stylesheet">
     <!-- bootstarp -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- main css -->
@@ -31,22 +35,22 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   
                   <li class="nav-item">
-                    <a class="nav-link" href="#">home</a>
+                    <a class="nav-link text-capitalize" href="#">home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">about</a>
+                    <a class="nav-link text-capitalize" href="#">about</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">our offer</a>
+                    <a class="nav-link text-capitalize" href="#">our offer</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link text-capitalize" href="#">gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">gallery</a>
+                    <a class="nav-link text-capitalize" href="#">blog</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link text-capitalize" href="#">contact</a>
                   </li>
                  
                 
@@ -55,11 +59,28 @@
           </nav>
 
           <div class="header-content">
-            <p>welcome to</p>
-            <h1>family bakery</h1>
-            <p>we're the biggest, best equipped and most advanced Bakery in the greater los angeles area.</p>
+            <p class="text-capitalize font-26 text-dark">welcome to</p>
+            <h1 class="text-white text-capitalize m-0">family bakery</h1>
+            
+            <p class="font-26 text-dark">we're the biggest, best equipped and most advanced Bakery in the greater los angeles area.</p>
+            <div class="buttons">
+              <button type="button" class="btn btn-light py-2 px-3 fs-5 text-white text-capitalize border border-0">learn more</button>
+              <button type="button" class="btn btn-outline-light text-capitalize py-2 px-4 fs-5 ms-2">contact us</button>
+              
+              
+              
+            </div>
           </div>
+         
+
+            <div class="bg-light p-2 rounded fix-icons position-fixed end-0">
+              <a href="#" class="text-dark d-block fs-5 mb-1"><i class="fa-solid fa-gear"></i></a>
+              <a href="#" class="text-dark d-block fs-5"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="bullet border rounded-pill position-absolute start-50 translate-middle-x"></div>
     </div>
+    
    </header>
 
 
