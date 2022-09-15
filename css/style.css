@@ -25,7 +25,7 @@ body {
 
 header {
     height: 100vh;
-    width: 100vw;
+    
     background-image: url(../images/asset2.ed25c7587f099684d6ff.jpeg);
     background-size: cover;
     background-position: center center;
@@ -65,7 +65,7 @@ header {
 
 .fix-icons{
     top: 12rem;
-    box-shadow: 0px 0px 15px 0px #ddd;
+    box-shadow: 0px 0px 20px 0px #ddd;
     transition: color 1s;
 }
 
@@ -119,3 +119,25 @@ header {
 
 
 /* end header section =====================================================================================*/
+
+
+
+/* about-secton start */
+
+    .about-content p{
+        line-height: 1.86em;
+        margin-bottom: 20px;
+        /* word-spacing: .1rem; */
+        color: #686868;
+        font-size: large;
+        
+        
+        /* font-weight:600; */
+    }
+
+    .about-content ul li i {
+        line-height: 2;
+        
+        
+    }
+/* about-secton end */
