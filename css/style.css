@@ -3,16 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
-
-
 body {
     font-family: Alegreya,serif,monospace;
 }
-
-
 /* fonts style =================== */
 .font-26 {
     font-size: 1.625rem;
@@ -124,7 +121,7 @@ header {
 
 /* about-secton start */
 
-    .about-content p{
+    .about-content p , .location-conteny p{
         line-height: 1.86em;
         margin-bottom: 20px;
         /* word-spacing: .1rem; */
@@ -140,4 +137,28 @@ header {
         
         
     }
+
+    .about-content ul li span{
+        width: 1.875rem;
+        height: 1.875rem;
+        border: 0.5px solid #929292;
+    border-radius: 50%;
+    color: #8e7754;
+    font-weight: 900;
+
+    }
+    .about-content ul li p {
+        margin-left: .5rem;
+    }
+
+
 /* about-secton end */
+
+@media screen and (max-width : 1199.98px) {
+    .location-photo{
+        text-align: center;
+    }
+    .location-photo img {
+        width: 75% !important;
+    }
+}
