@@ -83,8 +83,9 @@ header {
     bottom: 0;
     left: 50;
     transform: translateX(-50%);
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 10px;
+    border-radius: 35%;
     background-color: white;
     animation: moves 2.5s infinite ;
 }
@@ -121,7 +122,7 @@ header {
 
 /* about-secton start */
 
-    .about-content p , .location-conteny p{
+    .about-content p , .location-conteny p ,.bank-section p,.contact-section p{
         line-height: 1.86em;
         margin-bottom: 20px;
         /* word-spacing: .1rem; */
@@ -132,22 +133,29 @@ header {
         /* font-weight:600; */
     }
 
-    .about-content ul li i {
+    /* .about-content ul li i {
         line-height: 2;
         
         
-    }
+    } */
 
-    .about-content ul li span{
+    .about-content ul li span , .contact-section ul li span{
         width: 1.875rem;
         height: 1.875rem;
         border: 0.5px solid #929292;
     border-radius: 50%;
     color: #8e7754;
     font-weight: 900;
+    line-height: 2;
 
     }
-    .about-content ul li p {
+
+
+    .contact-section ul li span{
+        background-color: #8e7754 ;
+        color: white;
+    }
+    .about-content ul li p , .contact-section ul li p {
         margin-left: .5rem;
     }
 
@@ -160,5 +168,20 @@ header {
     }
     .location-photo img {
         width: 75% !important;
+    }
+}
+
+
+.contact-section iframe {
+    height: 34.62rem;
+}
+
+@media screen and (max-width : 1199.98px) {
+    .contact-section{
+        text-align: center;
+    }
+    .contact-section iframe {
+        width: 80% !important;
+        height: 17.31rem;
     }
 }
