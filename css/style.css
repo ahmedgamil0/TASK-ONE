@@ -260,5 +260,20 @@ footer i:hover {
     color: white;
 }
 
+.iconTop {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    /* padding: 20px; */
+    color: black;
+    z-index: 9999;
+    transition: color .5s;
+    display: none;
+}
+
+.iconTop:hover{
+    color: #007bb5;
+}
+
 
 
