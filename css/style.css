@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul {
+    list-style: none;
+}
 
 a {
     text-decoration: none;
@@ -122,7 +125,7 @@ header {
 
 /* about-secton start */
 
-    .about-content p , .location-conteny p ,.bank-section p,.contact-section p{
+    .about-content p , .location-conteny p ,.bank-section p,.contact-section p ,.data-section p{
         line-height: 1.86em;
         margin-bottom: 20px;
         /* word-spacing: .1rem; */
@@ -139,7 +142,7 @@ header {
         
     } */
 
-    .about-content ul li span , .contact-section ul li span{
+    .about-content ul li span , .contact-section ul li span {
         width: 1.875rem;
         height: 1.875rem;
         border: 0.5px solid #929292;
@@ -185,3 +188,77 @@ header {
         height: 17.31rem;
     }
 }
+
+.data-section {
+    background-color: #403d38;
+}
+
+.data-section p ,.data-section ul li ,.data-section ul li a{
+    font-size: 18px;
+    color: #969696;
+    font-weight: bold;
+}
+
+
+.data-section ul li span{
+    line-height: 2;
+    text-align: left;
+}
+
+
+.data-section ul li a{
+    cursor: pointer;
+}
+
+.data-section ul li a:hover {
+    color: #fff;
+    transition: all .5s;
+    
+}
+footer {
+    background: #353330;
+}
+footer p{
+    color: #969696;
+}
+
+footer li {
+    background: #484540;
+  
+    
+    text-align: center;
+    line-height: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+footer i {
+    color: #8c8a86;
+    font-size: 18px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    
+    
+}
+footer .facebook:hover {
+    background-color:   #3b5998;
+}
+.google:hover{
+    background-color: #dd4b32;
+}
+.linkdin:hover{
+    background: #007bb5;
+}
+.twitter:hover{
+    background: #00aced;
+}
+footer i:hover {
+    
+    color: white;
+}
+
+
+
